@@ -16,11 +16,13 @@ span{
 }
 
 .container{
-    height: 650px;
+    
     width: 400px;
     display: inline-block;
     border: solid black;
     border-radius: 30px;
+
+    margin: 20px;
 }
 p{
     padding-left: 4px;
@@ -33,10 +35,18 @@ img{
    
 }
 .pets{
+    
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
 h3{
     padding-left: 4px;
+}
+
+@media (max-width: 900px){
+    .pets{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
