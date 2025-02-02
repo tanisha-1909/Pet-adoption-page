@@ -1,0 +1,42 @@
+.head{
+    margin-top: 20px;
+}
+
+#redirect{
+    color:rgb(154, 26, 26);
+    text-decoration: none;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+span{
+    color: brown;
+}
+
+.container{
+    height: 650px;
+    width: 400px;
+    display: inline-block;
+    border: solid black;
+    border-radius: 30px;
+}
+p{
+    padding-left: 4px;
+}
+img{
+    height: 300px;
+    width: 380px;
+    border-radius: 30px;
+    margin: 10px 10px 10px 10px;
+   
+}
+.pets{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    padding-left: 4px;
+}
